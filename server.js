@@ -26,4 +26,4 @@ io.on('connection', socket => {
     socket.to(roomId).broadcast.emit('user-connected', userId);
   })
 })
-server.listen(80);
+server.listen(8080);
